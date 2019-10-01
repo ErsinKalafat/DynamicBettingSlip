@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Dynamic Betting Slip</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+</head>
+<body>
+<div> <b class="baslik">Hemen Oyna</b>\\\\\\\\\\\\\\\\\\\\\\\\\\\\\</div>
+
+<div class="container"></div>
+
+<div class="hesaplama">
+    <div class="misli">
+        Misli
+        <select id="misliler_id" onchange="misliSec()">
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+        </select>
+    </div>
+    <div class="kazancbedel">
+        <div> K. Bedeli <b id="kuponBedeli">0</b> <b>TL</b> </div> <br>
+        <div> M. Kazanç <b id="kazanc">0</b> <b>TL</b>  <br></div>
+    </div>
+</div>
+<div class="hemenoyna">
+    <div class="logo">
+        <b>NESINE.COM</b>
+    </div>
+    <div class="oynaButonu">
+        <button onclick="alert('Ersin Kalafat - ersin0105@gmail.com')"> Hemen Oyna &#8594;</button>
+    </div>
+
+</div>
+
+<script src="betting-slip.js"></script>
+</body>
+</html>

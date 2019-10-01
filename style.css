@@ -1,0 +1,80 @@
+body {
+    font-family: Calibri;
+    width: 380px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    border-radius: 5px 5px 5px 5px;
+    padding: 20px;
+}
+
+.baslik {
+    font-size: 30px;
+    font-family: Candara;
+    margin-right: 35px;
+}
+
+.musabaka {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.container .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons div {
+    width: 100px;
+}
+
+.button {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.button button {
+    background-color: rgba(5, 5, 5, 0.9);
+    color: white;
+    padding: 5px 25px 5px 25px;
+    border: 0;
+    cursor: pointer;
+}
+
+.hesaplama {
+    display: flex;
+    justify-content: space-between;
+}
+
+#misliler_id {
+    padding: 7px 30px 7px 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.kazancbedel div {
+    float: right;
+}
+
+.hemenoyna {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffe40e;
+    margin-top: 10px;
+    padding: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+    border-radius: 0 0 5px 5px;
+}
+
+.oynaButonu button {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
